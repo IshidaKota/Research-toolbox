@@ -102,11 +102,14 @@ class Fvcom2D:
     
 #ここから    
 #get variables
-f = '../examples/Tokyo2_0001.nc'
-obcfile = 'C:/Users/ishid/fvcominputs/input/TokyoBay_obc.dat'
+
+#ncfile = '../examples/Tokyo2_0001.nc'
+#obcfile = 'C:/Users/ishid/fvcominputs/input/TokyoBay_obc.dat'
+ncfile = '/work/gy29/y29007/Github/fvcom442/work/Tokyo/run/Tokyo2_0001_dt3.nc' #2019/1/1~10/12のデータ
+obcfile = '/work/gy29/y29007/Github/fvcom442/work/Tokyo/input_testcase20_check/TokyoBay_obc.dat' #2019/1/1~10/12のデータ
 fvcom = Fvcom2D(ncfile_path=ncfile, obcfile_path=obcfile, m_to_km=True, offset=False)
-sal = nc.variables['salinity']
-temp = nc.variables['temprature']
+sal = fvcom.variables['salinity']
+temp = fvcom.variables['temprature']
 
 #get station node
 stn ={'chiba1buoy':(139.9542517,35.53703833),'chibaharo':(140.0233033,35.61095833),'kawasaki':(139.8340267,35.49019),'urayasu':(139.9417417,35.640085)}
@@ -146,13 +149,14 @@ def get_temp_cc(stn_node):
     for key in stn_node:
         index = stn_node[key]
         #read Mpos_s
-        f = 'C:/Users/ishid/Github/Puppeteer/src/csv/Mpos_S_' + key +'_2019.csv'
+        #f = 'C:/Users/ishid/Github/Puppeteer/src/csv/Mpos_S_' + key +'_2019.csv'
+        f = 'work/gy29/y29007/Github/data/csv/Mpos_S_' + key +'_2019.csv'
         df = pd.read_csv(f)
         
         df_tp_1 = df[df['lev']==1]#明日までに水深を考慮して計算する。sigma layerと深さの実数値を変換して、観測データのほうを内挿補間して比較する
         #df_tp_1 = df_tp_1.interpolate()
-        df_tp_1 = df_tp_1.reset_index(drop=True)
-        df_tp_1.to_csv('C:/Users/ishid/Github/Puppeteer/src/csv/Mpos_S_' + key +'interp_2019.csv')
+        df_tp_1 = df_tp_1.reset_index(drop=True) #10日間欠損があったり、KawasakiはすべてNanだったり…
+        #df_tp_1.to_csv('C:/Users/ishid/Github/Puppeteer/src/csv/Mpos_S_' + key +'interp_2019.csv')
         
         #plot
         fig = plt.figure(figsize=(50,4))
@@ -179,7 +183,7 @@ def get_temp_cc(stn_node):
         rmse[key] = res
         
         #calc cc
-        res = calc_cc(temp[:,0, index],df_tp_1['tp'])
+        res = calc_cc(temp[:,0, index],df_tp_1['tp']) #まだ正確な値は出ない
         cc[key] = res
     return rmse,cc
 
@@ -191,6 +195,10 @@ print(cc)
     
     
     
+    
+    
+    
+
     
     
     
