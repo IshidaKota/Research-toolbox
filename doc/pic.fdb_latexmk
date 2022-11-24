@@ -1,0 +1,37 @@
+# Fdb version 4
+["dvipdf"] 0 "pic.dvi" "pic.pdf" "pic" 0 -1
+  "pic.dvi" 1669218968 920 7a5e24e8f1a91d1091b7716f1bd5445e "latex"
+  (generated)
+  "pic.pdf"
+  (rewritten before read)
+["latex"] 1669218968 "/home/usr0/r70240c/Github/fvcom442/work2/tune/doc/pic.tex" "pic.dvi" "pic" 1669218968 2
+  "/home/usr0/r70240c/Github/fvcom442/work2/tune/doc/pic.tex" 1669218967 627 1a4a1e3a5c3b3f5591ffb54c72eca8e1 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm" 1522271273 812 52bd92aa20c58a398601cda6dd62c8d1 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm" 1522271273 536 5f2475e9deb198c23894800d3c5eed00 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm" 1522271273 812 52bd92aa20c58a398601cda6dd62c8d1 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm" 1522271273 536 5f2475e9deb198c23894800d3c5eed00 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1666901542 36093 e05f0e1b90c5bc8f0cea05592fd8fd31 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/tex/platex/base/jarticle.cls" 1601501154 25873 fd34d08164a3ea7afd6bc7fe99629a3d ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/tex/platex/base/jsize12.clo" 1601501154 8603 b3295bc4cc1325a821c424059c0c11d6 ""
+  "/home/usr0/r70240c/local/texlive/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
+  "/home/usr0/r70240c/local/texlive/texmf-var/web2c/euptex/uplatex.fmt" 1669172438 3051065 5d5084385be1af42988a53139c5d7a75 ""
+  "/home/usr0/r70240c/local/texlive/texmf.cnf" 1669172309 496 01ab80fa0036a81d2df86fb0ac70c709 ""
+  "pic.aux" 1669218968 456 74aaedf84a2393784717e3b7635878b1 "latex"
+  "pic.tex" 1669218967 627 1a4a1e3a5c3b3f5591ffb54c72eca8e1 ""
+  (generated)
+  "pic.aux"
+  "pic.dvi"
+  "pic.log"
+  (rewritten before read)

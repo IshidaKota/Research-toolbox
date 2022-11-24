@@ -1,0 +1,2 @@
+({'chiba1buoy': nan, 'chibaharo': 7.514118039764266, 'kawasaki': nan, 'urayasu': nan}, {'chiba1buoy': 0.8451130670391284, 'chibaharo': 0.7862831036289356, 'kawasaki': 0.7081217325183128, 'urayasu': 0.6408012627786804})
+{'chiba1buoy': 136, 'chibaharo': 46, 'kawasaki': 222, 'urayasu': 51}
